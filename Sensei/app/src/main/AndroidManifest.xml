@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.EndGame_activity"></activity>
+        <activity
+            android:name=".activity.EndGame_activity"
+            android:screenOrientation="portrait">
+        </activity>
         <activity
             android:name=".activity.Game_Activity"
             android:screenOrientation="portrait">
