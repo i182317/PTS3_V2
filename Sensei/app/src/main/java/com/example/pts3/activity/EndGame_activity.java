@@ -43,7 +43,7 @@ public class EndGame_activity extends AppCompatActivity {
         }else if(Win.equals("VertAntiJeu")){
             textJ1.setText("Vert WIN par Anti Jeu");
             textJ2.setText("Rouge LOOSE par Anti Jeu");
-        }else if(Win.equals("RougetAntiJeu")){
+        }else if(Win.equals("RougeAntiJeu")){
             textJ2.setText("Rouge WIN par Anti Jeu");
             textJ1.setText("Vert LOOSE par Anti Jeu");
         }
